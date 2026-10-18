@@ -1,0 +1,350 @@
+{
+	"contentrating" : "Mature",
+	"description" : "Random ZX Spectrum pixel art from the zxart.ee archive — over 19 000 pictures by demoscene artists. Configurable change interval, pixel-perfect integer scaling, optional CRT scanlines and blurred background. Keywords: ZX Spectrum, Speccy, demoscene, 8-bit, pixel art, SCR, retro computing.",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"bgcolor" : 
+			{
+				"index" : 6,
+				"order" : 106,
+				"text" : "Background color",
+				"type" : "color",
+				"value" : "0 0 0"
+			},
+			"blindmode" : 
+			{
+				"index" : 21,
+				"order" : 121,
+				"text" : "Fallback mode without API",
+				"type" : "bool",
+				"value" : true
+			},
+			"blurbg" : 
+			{
+				"index" : 5,
+				"order" : 105,
+				"text" : "Blurred background (single)",
+				"type" : "bool",
+				"value" : true
+			},
+			"corsproxy" : 
+			{
+				"index" : 19,
+				"order" : 119,
+				"text" : "CORS proxy (optional)",
+				"type" : "textinput",
+				"value" : ""
+			},
+			"debug" : 
+			{
+				"index" : 20,
+				"order" : 120,
+				"text" : "Debug overlay",
+				"type" : "bool",
+				"value" : false
+			},
+			"fade" : 
+			{
+				"index" : 2,
+				"max" : 5000,
+				"min" : 0,
+				"order" : 102,
+				"step" : 100,
+				"text" : "Crossfade duration (ms)",
+				"type" : "slider",
+				"value" : 1000
+			},
+			"infohide" : 
+			{
+				"index" : 13,
+				"order" : 113,
+				"text" : "Auto-hide caption after 8 s",
+				"type" : "bool",
+				"value" : true
+			},
+			"infopos" : 
+			{
+				"index" : 14,
+				"options" : 
+				[
+					{
+						"label" : "Bottom left",
+						"value" : "bl"
+					},
+					{
+						"label" : "Bottom right",
+						"value" : "br"
+					},
+					{
+						"label" : "Top left",
+						"value" : "tl"
+					},
+					{
+						"label" : "Top right",
+						"value" : "tr"
+					}
+				],
+				"order" : 114,
+				"text" : "Caption position",
+				"type" : "combo",
+				"value" : "bl"
+			},
+			"interval" : 
+			{
+				"index" : 1,
+				"max" : 1800,
+				"min" : 5,
+				"order" : 101,
+				"step" : 5,
+				"text" : "Change interval (seconds)",
+				"type" : "slider",
+				"value" : 60
+			},
+			"minrating" : 
+			{
+				"index" : 15,
+				"max" : 5,
+				"min" : 0,
+				"order" : 115,
+				"step" : 1,
+				"text" : "Minimum rating (0 = any)",
+				"type" : "slider",
+				"value" : 0
+			},
+			"mode" : 
+			{
+				"index" : 0,
+				"options" : 
+				[
+					{
+						"label" : "Single picture",
+						"value" : "single"
+					},
+					{
+						"label" : "Mosaic (fill screen)",
+						"value" : "tiles"
+					}
+				],
+				"order" : 100,
+				"text" : "Display mode",
+				"type" : "combo",
+				"value" : "single"
+			},
+			"pictype" : 
+			{
+				"index" : 16,
+				"options" : 
+				[
+					{
+						"label" : "All",
+						"value" : "all"
+					},
+					{
+						"label" : "Standard 6912",
+						"value" : "standard"
+					},
+					{
+						"label" : "Gigascreen",
+						"value" : "gigascreen"
+					},
+					{
+						"label" : "Multicolor",
+						"value" : "multicolor"
+					},
+					{
+						"label" : "Tricolor",
+						"value" : "tricolor"
+					}
+				],
+				"order" : 116,
+				"text" : "Picture type",
+				"type" : "combo",
+				"value" : "all"
+			},
+			"pixelated" : 
+			{
+				"index" : 4,
+				"order" : 104,
+				"text" : "Sharp pixels (no smoothing)",
+				"type" : "bool",
+				"value" : true
+			},
+			"quality" : 
+			{
+				"index" : 18,
+				"max" : 10,
+				"min" : 0,
+				"order" : 117,
+				"step" : 1,
+				"text" : "Server zoom (0 = auto)",
+				"type" : "slider",
+				"value" : 0
+			},
+			"scalemode" : 
+			{
+				"index" : 3,
+				"options" : 
+				[
+					{
+						"label" : "Pixel perfect (integer)",
+						"value" : "integer"
+					},
+					{
+						"label" : "Fit to screen",
+						"value" : "fit"
+					},
+					{
+						"label" : "Fill screen",
+						"value" : "fill"
+					}
+				],
+				"order" : 103,
+				"text" : "Scaling mode (single)",
+				"type" : "combo",
+				"value" : "integer"
+			},
+			"scanlines" : 
+			{
+				"index" : 7,
+				"order" : 107,
+				"text" : "CRT scanlines",
+				"type" : "bool",
+				"value" : false
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			},
+			"showinfo" : 
+			{
+				"index" : 12,
+				"order" : 112,
+				"text" : "Show caption",
+				"type" : "bool",
+				"value" : true
+			},
+			"tilefit" : 
+			{
+				"index" : 11,
+				"options" : 
+				[
+					{
+						"label" : "Centered, free space around",
+						"value" : "margin"
+					},
+					{
+						"label" : "Fill screen, crop edges",
+						"value" : "crop"
+					},
+					{
+						"label" : "Stretch to exact fit",
+						"value" : "stretch"
+					}
+				],
+				"order" : 110,
+				"text" : "Mosaic: layout",
+				"type" : "combo",
+				"value" : "margin"
+			},
+			"tilegap" : 
+			{
+				"index" : 10,
+				"max" : 20,
+				"min" : 0,
+				"order" : 110,
+				"step" : 1,
+				"text" : "Mosaic: gap between tiles (px)",
+				"type" : "slider",
+				"value" : 0
+			},
+			"tilescale" : 
+			{
+				"index" : 8,
+				"options" : 
+				[
+					{
+						"label" : "x1  -  256 x 192",
+						"value" : "1"
+					},
+					{
+						"label" : "x2  -  512 x 384",
+						"value" : "2"
+					},
+					{
+						"label" : "x3  -  768 x 576",
+						"value" : "3"
+					},
+					{
+						"label" : "x4  -  1024 x 768",
+						"value" : "4"
+					},
+					{
+						"label" : "x5  -  1280 x 960",
+						"value" : "5"
+					},
+					{
+						"label" : "x6  -  1536 x 1152",
+						"value" : "6"
+					},
+					{
+						"label" : "x7  -  1792 x 1344",
+						"value" : "7"
+					},
+					{
+						"label" : "x8  -  2048 x 1536",
+						"value" : "8"
+					},
+					{
+						"label" : "x9  -  2304 x 1728",
+						"value" : "9"
+					},
+					{
+						"label" : "x10 -  2560 x 1920",
+						"value" : "10"
+					}
+				],
+				"order" : 107,
+				"text" : "Mosaic: tile scale",
+				"type" : "combo",
+				"value" : "2"
+			},
+			"tilestagger" : 
+			{
+				"index" : 9,
+				"order" : 109,
+				"text" : "Mosaic: change tiles one by one",
+				"type" : "bool",
+				"value" : true
+			},
+			"yearfrom" : 
+			{
+				"index" : 17,
+				"max" : 2026,
+				"min" : 1982,
+				"order" : 117,
+				"step" : 1,
+				"text" : "Year from",
+				"type" : "slider",
+				"value" : 1982
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"ratingsex" : "adult",
+	"ratingviolence" : "included",
+	"snapshotformat" : -1,
+	"snapshotoverlay" : "",
+	"tags" : [ "Pixel art" ],
+	"title" : "ZX-Art Random PixelArt — ZX Spectrum Gallery",
+	"type" : "Web",
+	"version" : 7,
+	"visibility" : "public",
+	"workshopid" : "3813178184",
+	"workshopurl" : "steam://url/CommunityFilePage/3813178184"
+}
